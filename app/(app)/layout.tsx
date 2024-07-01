@@ -8,7 +8,7 @@ import { SessionProvider } from 'next-auth/react'
 import { auth } from '@/auth'
 import { AlertDemo } from '@/components/alert'
 import { Footer } from '@/components/footer'
-
+import Hero from '@/components/Hero'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -35,6 +35,7 @@ export default async function RootLayout({
             <ToastProvider />
             <AlertDemo />
             <Navbar />
+            
             {children}
           </ThemeProvider>
         </body>

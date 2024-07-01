@@ -53,6 +53,7 @@
     "next-auth": "^5.0.0-beta.4",
     "next-themes": "^0.3.0",
     "payload": "^3.0.0-beta.56",
+    "payloadcms-plugin-imagekit": "^0.4.0",
     "pg": "^8.11.5",
     "postgres": "^3.4.4",
     "prettier": "^3.3.2",

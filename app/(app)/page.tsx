@@ -11,18 +11,22 @@ import { PricingCard } from '@/components/pricing-card'
 import { Testimonials } from '@/components/testimonials'
 import { WobbleCardDemo } from '@/components/wobblecard'
 import { cn } from '@/lib/utils'
-
+import Hero from '@/components/Hero'
 export default function Home() {
   return (
     <>
+      <Hero/>
       <main className="w-full max-w-6xl px-6 space-y-40">
+        
         <Header />
+       
         <FloatingNavDemo/>
         <HeroScrollDemo/>
         <Language />
         <WobbleCardDemo/>
         <InfiniteMovingCardsDemo/>
         <Testimonials />
+        <Stats/>
         
         <MeteorsDemo/>
      

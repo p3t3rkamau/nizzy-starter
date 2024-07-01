@@ -29,6 +29,10 @@ export const navPages = [
   {
     title: 'Designers',
     link: '/designers'
+  },
+  {
+    title: 'Docs',
+    link: '/documentation'
   }
 ]
 
