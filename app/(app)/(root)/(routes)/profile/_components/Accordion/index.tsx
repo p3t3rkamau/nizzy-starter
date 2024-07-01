@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+// @ts-ignore
 const Accordion = ({ children }) => {
   const [expanded, setExpanded] = useState(false);
 
