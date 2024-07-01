@@ -101,6 +101,7 @@ const config: Config = {
  
   plugins: [
     require('tailwindcss-animate'),
+    // @ts-ignore
     plugin(function({ addUtilities }) {
       addUtilities({
         '.scrollbar-hide': {
