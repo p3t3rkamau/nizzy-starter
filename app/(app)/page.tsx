@@ -12,6 +12,7 @@ import { Testimonials } from '@/components/testimonials'
 import { WobbleCardDemo } from '@/components/wobblecard'
 import { cn } from '@/lib/utils'
 import Hero from '@/components/Hero'
+import Stats from '@/components/stats'
 export default function Home() {
   return (
     <>

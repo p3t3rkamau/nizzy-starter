@@ -59,10 +59,10 @@ export const Navbar = () => {
                 </Link>
               ))}
             </div>
-            <div className="flex h-full gap-4">
+            {/* <div className="flex h-full gap-4">
               <ModeToggle />
               <UserButton />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
