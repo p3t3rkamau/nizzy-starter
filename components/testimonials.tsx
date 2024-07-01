@@ -3,6 +3,7 @@
 import { Card, CardContent, CardTitle } from '@/components/ui/card'
 import { Avatar, AvatarImage } from '@/components/ui/avatar'
 import AvatarCircles from '@/components/ui/user-avatar-card'
+import { AnimatedTooltipPreview } from './animatedAvatar'
 
 export const Testimonials = () => {
   // Add or remove testimonials here following this format
@@ -42,25 +43,8 @@ export const Testimonials = () => {
       avatar: '/testimonials/john-doe.jpg',
       message:
         'Write customer / user testimonials here. Please make sure it is a real one & not a fake one. You can add as many as you want. In fact, the more the better since people like to see what others are saying about your product or service.'
-    },
-    {
-      name: 'John Doe',
-      avatar: '/testimonials/john-doe.jpg',
-      message:
-        'Write customer / user testimonials here. Please make sure it is a real one & not a fake one. You can add as many as you want. In fact, the more the better since people like to see what others are saying about your product or service.'
-    },
-    {
-      name: 'John Doe',
-      avatar: '/testimonials/john-doe.jpg',
-      message:
-        'Write customer / user testimonials here. Please make sure it is a real one & not a fake one. You can add as many as you want. In fact, the more the better since people like to see what others are saying about your product or service.'
-    },
-    {
-      name: 'John Doe',
-      avatar: '/testimonials/john-doe.jpg',
-      message:
-        'Write customer / user testimonials here. Please make sure it is a real one & not a fake one. You can add as many as you want. In fact, the more the better since people like to see what others are saying about your product or service.'
     }
+   
   ]
 
   return (
@@ -74,7 +58,8 @@ export const Testimonials = () => {
           Describe your product / service here that will impress the user & want
           them to buy the product
         </p>
-        <AvatarCircles />
+        {/* <AvatarCircles /> */}
+        <AnimatedTooltipPreview/>
       </div>
       {/* Testimonials Card*/}
       <div className="flex items-center justify-center my-6">

@@ -10,27 +10,9 @@ import { useRouter } from 'next/navigation'
 // Update Tiers Here
 export const tiers = [
   {
-    name: 'Your Competitor Name',
-    price: '18.99',
-    features: [
-      'Feature 1',
-      'Feature 2',
-      'Feature 3',
-      'Feature 4',
-      'Feature 5',
-      'Feature 6',
-      'Feature 7',
-      'Feature 8',
-      'Feature 9',
-      'Feature 10'
-    ],
-    cta: 'Get Started',
-    yourProduct: false
-  },
-  {
-    name: 'Your Product Name',
-    priceBefore: '$19.99',
-    price: '8.99',
+    name: 'Bronze',
+    priceBefore: 'Ksh300',
+    price: 'Free',
     features: [
       'Feature 1',
       'Feature 2',
@@ -45,6 +27,44 @@ export const tiers = [
     ],
     cta: 'Get Started',
     yourProduct: true
+  },
+  {
+    name: 'Silver',
+    priceBefore: 'Ksh600',
+    price: '300',
+    features: [
+      'Feature 1',
+      'Feature 2',
+      'Feature 3',
+      'Feature 4',
+      'Feature 5',
+      'Feature 6',
+      'Feature 7',
+      'Feature 8',
+      'Feature 9',
+      'Feature 10'
+    ],
+    cta: 'Get Started',
+    yourProduct: true
+  },
+  {
+    name: 'Gold',
+    priceBefore: '2000',
+    price: '1200',
+    features: [
+      'Feature 1',
+      'Feature 2',
+      'Feature 3',
+      'Feature 4',
+      'Feature 5',
+      'Feature 6',
+      'Feature 7',
+      'Feature 8',
+      'Feature 9',
+      'Feature 10'
+    ],
+    cta: 'Get Started',
+    yourProduct: false
   }
 ]
 
@@ -117,7 +137,7 @@ export const PricingCard = () => {
                     {tier.priceBefore}
                   </span>
                 ) : null}
-                <span className="text-4xl font-bold">${tier.price}</span> /month
+                <span className="text-4xl font-bold">Ksh{tier.price}</span> /month
               </div>
               <ul className="mt-4 space-y-2.5">
                 {tier.features.map((feature, index) => (

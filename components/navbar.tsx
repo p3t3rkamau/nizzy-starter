@@ -12,11 +12,23 @@ export const navPages = [
   },
   {
     title: 'Pricing',
-    link: '/#pricing'
+    link: '/pricing'
   },
   {
-    title: 'Items',
-    link: '/#items'
+    title: 'Blog',
+    link: '/blog'
+  },
+  {
+    title: 'Go Pro',
+    link: '/gopro'
+  },
+  {
+    title: 'Profile',
+    link: '/profile'
+  },
+  {
+    title: 'Designers',
+    link: '/designers'
   }
 ]
 
